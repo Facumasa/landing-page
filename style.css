@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.right {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+
+
+/* remove underline from links, dots from list */
+
+ul {
+    list-style-type: none;
+  }
+  
+  a{ 
+    text-decoration: none; 
+    color: #e5e7eb;
+    font-size: 18px;
+  } 
