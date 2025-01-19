@@ -1,4 +1,17 @@
-.header {
+body {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+body > * {
+    /* all children of body (in this case all the flex items inside the body flex) */
+    /* line below just to see the boxes of each children of body */
+    border: solid black 2px;
+}
+
+.header, .footer {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
@@ -14,6 +27,12 @@
 .right {
     display: flex;
     gap: 16px;
+}
+
+
+.up1 {
+    align-self: center;
+    display: flex;
 }
 
 
