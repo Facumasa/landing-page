@@ -4,12 +4,14 @@
     justify-content: space-between;
 }
 
-.right {
+.left {
     color: #F9FAF8;
     font-size: 24px;
+    display: flex; 
+    align-items: center;
 }
 
-.left {
+.right {
     display: flex;
     gap: 16px;
 }
