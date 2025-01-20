@@ -10,12 +10,20 @@ body > * {
     /* all children of body (in this case all the flex items inside the body flex) */
     /* line below just to see the boxes of each children of body */
     border: solid black 2px;
+    padding: 0 10px;
+    flex: 1;
 }
 
 .header, .footer {
+    flex: 0;
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
+}
+
+.footer{
+    justify-content: center;
+    padding: 2px 0px;
 }
 
 .left {
@@ -34,6 +42,12 @@ body > * {
 .up1 {
     display: flex;
     background-color: #1f2937;
+    justify-content: center;
+}
+
+.up1 > *{
+    /* all children from up1 */
+    border: solid blue 2px;
     flex: 1;
 }
 
@@ -46,6 +60,11 @@ body > * {
     display: flex;
 }
 
+.imgs-and-txt p {
+    /* Targetting only the p inside this section */
+    color: #1f2937;
+}
+
 .up2 > *{
     border: solid blue 2px;
 }
@@ -54,6 +73,10 @@ body > * {
     border: 1px solid #3882F6;
     /* rounded border */
     border-radius: 8px;
+}
+
+p{
+    color: #e5e7eb;
 }
 
 /* remove underline from links, dots from list */
