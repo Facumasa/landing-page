@@ -9,7 +9,6 @@ body {
 body > * {
     /* all children of body (in this case all the flex items inside the body flex) */
     /* line below just to see the boxes of each children of body */
-    border: solid black 2px;
     padding: 0 10px;
     flex: 1; 
 }
@@ -50,7 +49,7 @@ body > * {
 
 .left-top, .right-top{
     /* all children from up1 */
-    border: solid purple 2px;
+    border: solid purple 1px;
     flex: 1;
 }
 
@@ -59,6 +58,14 @@ h1 {
     color: #f9faf8;
     font-weight: 900;
 }
+
+h2{
+ text-align: center;
+ font-size: 36px;
+ font-weight: 900;
+ color: #1f2937;
+}
+
 .sign-up1{
     /* button on the top */
     background-color: #3882f6;
@@ -74,6 +81,7 @@ h1 {
     flex-direction: column;
 }
 
+
 .imgs-and-txt{
     display: flex;
 }
@@ -83,14 +91,23 @@ h1 {
     color: #1f2937;
 }
 
-.up2 > *{
-    border: solid blue 2px;
-}
 
 .smallim{
-    border: 1px solid #3882F6;
+    border: 2px solid #3882F6;
     /* rounded border */
     border-radius: 8px;
+}
+
+.middle {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
 }
 
 p{
