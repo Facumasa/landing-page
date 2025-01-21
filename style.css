@@ -70,7 +70,7 @@ h2{
     /* button on the top */
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 4px 20px;
+    padding: 5px 30px;
     font-weight: bold;
     color: #f9faf8;
     border: none;
@@ -80,7 +80,7 @@ h2{
     /* button at the bottom */
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 4px 20px;
+    padding: 5px 30px;
     color: #f9faf8;
     border: solid white 2px;
 }
@@ -88,6 +88,11 @@ h2{
 .up2, .imgtxt{
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+.up2 {
+    padding: 0 60px;
 }
 
 
@@ -112,6 +117,7 @@ h2{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    padding: 60px;
 }
 
 .author {
