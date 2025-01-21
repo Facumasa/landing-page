@@ -11,7 +11,7 @@ body > * {
     /* line below just to see the boxes of each children of body */
     border: solid black 2px;
     padding: 0 10px;
-    flex: 1;
+    flex: 1; 
 }
 
 .header, .footer {
@@ -43,14 +43,14 @@ body > * {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     /* padding left and right auto to follow the same as the rest of the body */
     padding: 2em auto;
 }
 
-.up1 > *{
+.left-top, .right-top{
     /* all children from up1 */
-    border: solid blue 2px;
+    border: solid purple 2px;
     flex: 1;
 }
 
@@ -63,7 +63,7 @@ h1 {
     /* button on the top */
     background-color: #3882f6;
     border-radius: 8px;
-    padding: 4px 10px;
+    padding: 4px 20px;
     font-weight: bold;
     color: #f9faf8;
     border: none;
