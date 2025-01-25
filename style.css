@@ -38,11 +38,13 @@ body > * {
 }
 
 
+
+
 .up1 {
     /* upper part, container with the first elongated image and text next to it*/ 
     display: flex;
     background-color: #1f2937;
-    align-items: stretch;
+    align-items:stretch;
     /* padding left and right auto to follow the same as the rest of the body */ 
     padding: 2em auto;
 }
@@ -50,11 +52,13 @@ body > * {
 .left-top, .right-top{
     /* all children from up1 */ 
     flex: 1;
-    align-items: stretch;
     border: solid purple 4px;
 }
 
-
+  .right-top img {
+    height: 100%;
+    width: 100%;
+}  
 
 h1 {
     font-size: 48px;
