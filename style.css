@@ -49,7 +49,6 @@ body > * {
 
 .left-top, .right-top{
     /* all children from up1 */
-    border: solid purple 1px;
     flex: 1;
 }
 
@@ -105,6 +104,8 @@ h2{
 
 .imgs-and-txt{
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .imgs-and-txt p {
